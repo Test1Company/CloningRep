@@ -1,0 +1,30 @@
+{
+"ItemDetails": [
+        {
+"Weight": "321 g",
+"Dimension": "51 * 42 * 18 CM"
+ 
+        },
+        {
+"Weight": "451 g",
+"Dimension": "10 * 78 * 18 CM"
+        },
+        {
+"Weight": "100 g",
+"Dimension": "28 * 52 * 18 CM"
+        },
+        {
+"Weight": "214 g",
+"Dimension": "78 * 65 * 18 CM"
+        },
+        {
+"Weight": "187 g",
+"Dimension": "38 * 45 * 18 CM"
+        },
+        {
+"Weight": "168 g",
+"Dimension": "12 * 42 * 18 CM"
+        }
+      
+    ]
+}

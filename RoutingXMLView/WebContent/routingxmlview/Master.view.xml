@@ -1,0 +1,39 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="Routing.routingxmlview.Master" xmlns:html="http://www.w3.org/1999/xhtml">
+	
+	<Page
+		title="Product List" >
+				    
+				 
+					<SearchField id="idSearch" enableClear="true"
+            liveChange="onSearch" enableListSuggest="true" enableFilterMode="true"
+         width="100%" >
+					</SearchField>
+	 
+			
+	 <List id="idList" 
+    mode="{device>/listMode}"
+     select="handleListSelect"
+     items="{/Item}" 
+      growing="true"
+      inset="false"
+      growingScrollToLoad="true"
+    >
+      
+ <ObjectListItem  type="{device>/listItemType}"
+press="handleListItemPress"
+  title="{Manufacturer}"
+   number="{Price} INR" 
+  >
+ 		 <attributes>
+          <ObjectAttribute text="{Type}" />
+        </attributes>
+      </ObjectListItem>
+</List>
+    
+</Page>
+	
+	
+	
+	 
+</core:View>

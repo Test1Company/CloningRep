@@ -1,0 +1,25 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:m="sap.m"  xmlns:l="sap.ui.layout" 
+		controllerName="Routing.routingxmlview.Detail" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page
+title="Product Details"
+showNavButton="{device>/isPhone}"
+navButtonPress="handleNavButtonPress" >
+ <l:VerticalLayout
+    width="100%">
+    <l:content>
+      <List id=""    
+        headerText="{headerDetails>/Manufacturer}" >
+        
+        <DisplayListItem id="idpartno" 
+          label="Product Type"
+          value="{headerDetails>/Type}" />
+          <DisplayListItem
+          label="Price"
+          value="{headerDetails>/Price}"
+          />
+          
+      </List>
+    </l:content>
+  </l:VerticalLayout>
+</Page>
+</core:View>
